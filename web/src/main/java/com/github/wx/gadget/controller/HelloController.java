@@ -7,21 +7,31 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class HelloController {
 
     @Autowired
-    private TearService tearService;
+    private Map<String, TearService> tearServiceMap;
+
+
+
+
 
     @RequestMapping("/")
     public String index() {
+
+        tearServiceMap.entrySet().forEach(e->{
+            System.out.println(e.getKey() + ":" + e.getValue());
+        });
+
         return "Greetings from Spring Boot!";
     }
 
     @RequestMapping(value = "/test")
-    public List<Tear> test(){
-        return tearService.allTears();
+    public List<Tear> test() {
+        return null;
     }
 
 }

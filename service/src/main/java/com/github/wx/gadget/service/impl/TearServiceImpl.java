@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by luohao on 2016/11/29.
  */
-@Service
+@Service("testService2")
 public class TearServiceImpl implements TearService {
 
     @Autowired
