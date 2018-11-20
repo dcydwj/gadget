@@ -2,7 +2,6 @@ package com.mycollection.tree;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-08-15 22:04
  * @Version: 1.0
  */

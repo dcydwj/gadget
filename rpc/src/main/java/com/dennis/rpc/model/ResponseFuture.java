@@ -7,7 +7,6 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-07-21 22:33
  * @Version: 1.0
  */

@@ -6,7 +6,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-07-21 21:07
  * @Version: 1.0
  */

@@ -6,7 +6,6 @@ import java.util.function.Consumer;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-08-14 17:11
  * @Version: 1.0
  */

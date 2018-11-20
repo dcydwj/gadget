@@ -16,7 +16,6 @@ import java.util.concurrent.Future;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-07-21 22:05
  * @Version: 1.0
  */

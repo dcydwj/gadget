@@ -6,7 +6,6 @@ import rpc.model.User;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-07-21 20:02
  * @Version: 1.0
  */

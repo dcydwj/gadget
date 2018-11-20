@@ -19,7 +19,6 @@ import java.util.concurrent.Executors;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-07-21 21:40
  * @Version: 1.0
  */

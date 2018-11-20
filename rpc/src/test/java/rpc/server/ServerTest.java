@@ -8,7 +8,6 @@ import java.io.IOException;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-07-21 20:09
  * @Version: 1.0
  */

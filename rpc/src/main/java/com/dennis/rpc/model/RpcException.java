@@ -2,7 +2,6 @@ package com.dennis.rpc.model;
 
 /**
  * @Description:
- * @Author: congying.deng@ymm56.com
  * @Time: 2018-07-21 18:07
  * @Version: 1.0
  */
