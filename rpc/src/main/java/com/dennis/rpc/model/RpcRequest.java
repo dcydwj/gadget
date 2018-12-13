@@ -12,7 +12,6 @@ import java.util.Map;
  * @Version: 1.0
  */
 @Data
-@AllArgsConstructor
 public class RpcRequest implements Serializable {
     private static final long serialVersionUID = 5806834314327808117L;
 
@@ -30,5 +29,16 @@ public class RpcRequest implements Serializable {
 
     //上下文
     private Map<String, Object> context;
+
+
+    public RpcRequest() {
+    }
+
+    public RpcRequest( String methodName, Class<?>[] parameterTypes, Object[] args, Map<String, Object> context) {
+        this.methodName = methodName;
+        this.parameterTypes = parameterTypes;
+        this.args = args;
+        this.context = context;
+    }
 }
 
